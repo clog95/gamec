@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>iCuong</title>
+
+	<!-- Root CSS -->
+	<link rel="stylesheet" href="assets/root/css/root.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/custom/css/style.css">
+	<link rel="stylesheet" href="assets/custom/css/responsive.css">
+	
+	<link rel="stylesheet" href="test.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Font Google -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<!-- Search Mobile -->
+	<div class="search-container-m" id="search-container-m">
+	
+	 	<a href="javascript:void(0)" class="close-search-btn" onclick="closeSearch()">&times;</a>
+
+		<div class="search">
+
+			<form action="index.html">
+		    	<input type="text" placeholder="Search.." name="search">
+		     	<button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+
+		</div>
+
+	</div>
+
+	<!-- iCuong Sidenav -->
+	<div class="icuong-sidenav-container" id="icuong-sidenav-container">
+
+		<div class="icuong-sidenav" id="icuong-sidenav">
+			
+		 	<a href="javascript:void(0)" class="icuong-btn" onclick="closeIcuong()">&times;</a>
+
+			<div class="icuong-avatar">
+				<img class="icuong-img" src="imgs/myavatar.jpg" alt="iCuong">
+			</div>
+			
+			<div class="icuong-body">
+				<h1 class="icuong-name">iCuong</h1>
+				<p>Hi Guys!</p>
+				<p>I'm a web developer with PHP and Javascript. I love programming and design... <a href="about-me.html" class="read-more">More</a></p>
+
+				<ul class="list-socical">
+					<li class="list-socical-item">
+						<a href="https://github.com/icuong" target="_blank"><i class="fa fa-github"></i></a>
+					</li>
+					<li class="list-socical-item" style="display: none;">
+						<a href=""><i class="fa fa-instagram"></i></a>
+					</li>
+					<li class="list-socical-item"  style="display: none;">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li class="list-socical-item">
+						<a href="https://www.youtube.com/channel/UClyxvh446klV151zRZNMiKQ/" target="_blank"><i class="fa fa-youtube"></i></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Button for open List Tutorial -->
+
+	<!-- List Tutorial -->
+
+	<!-- Container Site -->
+	<div class="container-site">
+		
+		<!-- Header -->
+		<header>
+
+			<!-- Nav Top -->
+			<div class="topnav-container container-fluid">
+				<div class="topnav container-fluid">
+					
+					<div class="topnav-left">
+
+						<div id="btn-open-info" class="btn-toggle-bar-container info">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+
+						<a class="logo" href="index.html" title="iCuong">
+							<canvas id="logo-canvas" width="80" height="30">
+							</canvas>
+						</a>
+
+					</div>
+
+					<div class="search-container">
+						<form action="index.html">
+							<input type="text" name="search" placeholder="Search..." size="40">
+						</form>
+
+						<div class="btn-toggle-bar-container" onclick="chanBtnToggle(this)" style="display: none;">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+							
+						<button class="btn-search-m" type="submit" id="btn-search-m"><i class="fa fa-search" onclick="openSearch()"></i></button>
+
+					</div>
+					
+					<div class="topnav-right">
+						<label class="switch-theme">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+
+						<div class="user-container">
+							<a class="user" href="#user"><i class="fa fa-user"></i> Login</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="p-top-99-89"></div>
+
+			<!-- Topics -->			
+			
+
+			<!-- Banner Ads Top -->
+			
+
+			<!-- Menu Main -->
+			
+
+			<!-- Menu Main Mobile -->
+			
+
+		</header>
+
+		<!-- Content -->
+		<section>
+			<div class="content-container container-fluid">
+				
+				<div class="row">
+
+					<!-- Content Main -->
+					<div class="col-12 col-md-8 col-lg-9 content-main">
+						
+						<div class="cat-page-header">
+							<div class="row">
+								<div class="col-3 col-md-4 col-lg-3 col-xl-2">
+									<div class="cat-avatar-container">
+										<div class="cat-avatar">
+											<div class="cat-avatar-background" style="background-image: url(uploads/images/categories/apple.jpg);"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-9 col-md-8 col-lg-9 col-xl-10">
+									<h4 class="heading">Apple</h4>
+									<div class="cat-page-description">
+										<p>Chuyên mục bài viết về sản phẩm, công nghệ của Apple</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="control-posts clearfix">
+							<h4 class="heading heading-post">
+								Bài Viết
+							</h4>
+							<div class="btn-control-group">
+								<button class="btn-control" onclick="postStyle2()"><i class="fa fa-bars"></i></i></button>
+								<button class="btn-control" onclick="postStyle1()"><i class="fa fa-th-list"></i></button>
+								<button class="btn-control active" onclick="postStyleDefault()"><i class="fa fa-newspaper-o"></i></button>	
+							</div>
+						</div>
+
+						<div class="group-posts">
+							<div class="row">
+
+								<div class="col-12 col-lg-6 post-style-default">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											
+											<div class="post-meta-container">
+												
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+											
+											<div class="post-thumbnail-container">
+												<figure class="post-thumbnail">
+													<img src="uploads/images/posts/1.jpg" alt="" class="post-thumbnail-img">
+												</figure>
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful website, blog, or app....</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link" title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+
+										</div>
+
+									</article>
+
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-1">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											<div class="row">
+
+												<div class="col-4">
+													<div class="post-thumbnail-container">
+														<figure class="post-thumbnail">
+															<img src="uploads/images/posts/1.jpg" alt="" class="post-thumbnail-img">
+														</figure>
+													</div>
+
+													<div class="post-meta-container">
+
+														<span class="post-meta-item post-meta-item-view">
+															<i class="fa fa-eye"></i>
+															99
+														</span>
+														
+														<span class="post-meta-item post-meta-item-comment">
+															<i class="fa fa-comments"></i>
+															12
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#share" class="meta-link share-link"  title="Share">
+																<i class="fa fa-share"></i>
+															</a>
+														</span>
+
+													</div>
+												</div>
+
+												<div class="col-8">
+
+													<h2 class="post-title">
+														<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+													</h2>
+
+													<div class="post-meta-container">
+												
+														<span class="post-meta-item">
+															<a href="#cat" class="meta-link cat-link">
+																<div class="cat-thumbnail-meta-container">
+																	<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+																</div>
+																HTML 5
+															</a>
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+														</span>
+
+														<span class="post-meta-item post-meta-item-time">
+															1 ngày
+														</span>
+
+													</div>
+
+													<div class="post-content">
+														<p>WordPress is open source software you can use to create a beautiful..</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+									</article>
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-2">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">						
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+
+											<div class="post-meta-container">
+										
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful..</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link"  title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+												
+										</div>
+
+									</article>
+								</div>
+
+								<!-- ********************************************************* -->
+								<div class="col-12 col-lg-6 post-style-default">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											
+											<div class="post-meta-container">
+												
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+											
+											<div class="post-thumbnail-container">
+												<figure class="post-thumbnail">
+													<img src="uploads/images/posts/2.jpg" alt="" class="post-thumbnail-img">
+												</figure>
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful website, blog, or app....</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link" title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+
+										</div>
+
+									</article>
+
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-1">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											<div class="row">
+
+												<div class="col-4">
+													<div class="post-thumbnail-container">
+														<figure class="post-thumbnail">
+															<img src="uploads/images/posts/2.jpg" alt="" class="post-thumbnail-img">
+														</figure>
+													</div>
+
+													<div class="post-meta-container">
+
+														<span class="post-meta-item post-meta-item-view">
+															<i class="fa fa-eye"></i>
+															99
+														</span>
+														
+														<span class="post-meta-item post-meta-item-comment">
+															<i class="fa fa-comments"></i>
+															12
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#share" class="meta-link share-link"  title="Share">
+																<i class="fa fa-share"></i>
+															</a>
+														</span>
+
+													</div>
+												</div>
+
+												<div class="col-8">
+
+													<h2 class="post-title">
+														<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+													</h2>
+
+													<div class="post-meta-container">
+												
+														<span class="post-meta-item">
+															<a href="#cat" class="meta-link cat-link">
+																<div class="cat-thumbnail-meta-container">
+																	<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+																</div>
+																HTML 5
+															</a>
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+														</span>
+
+														<span class="post-meta-item post-meta-item-time">
+															1 ngày
+														</span>
+
+													</div>
+
+													<div class="post-content">
+														<p>WordPress is open source software you can use to create a beautiful..</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+									</article>
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-2">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">						
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+
+											<div class="post-meta-container">
+										
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful..</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link"  title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+												
+										</div>
+
+									</article>
+								</div>
+
+								<!-- ********************************************************* -->
+								<div class="col-12 col-lg-6 post-style-default">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											
+											<div class="post-meta-container">
+												
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+											
+											<div class="post-thumbnail-container">
+												<figure class="post-thumbnail">
+													<img src="uploads/images/posts/3.jpg" alt="" class="post-thumbnail-img">
+												</figure>
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful website, blog, or app....</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link" title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+
+										</div>
+
+									</article>
+
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-1">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											<div class="row">
+
+												<div class="col-4">
+													<div class="post-thumbnail-container">
+														<figure class="post-thumbnail">
+															<img src="uploads/images/posts/3.jpg" alt="" class="post-thumbnail-img">
+														</figure>
+													</div>
+
+													<div class="post-meta-container">
+
+														<span class="post-meta-item post-meta-item-view">
+															<i class="fa fa-eye"></i>
+															99
+														</span>
+														
+														<span class="post-meta-item post-meta-item-comment">
+															<i class="fa fa-comments"></i>
+															12
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#share" class="meta-link share-link"  title="Share">
+																<i class="fa fa-share"></i>
+															</a>
+														</span>
+
+													</div>
+												</div>
+
+												<div class="col-8">
+
+													<h2 class="post-title">
+														<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+													</h2>
+
+													<div class="post-meta-container">
+												
+														<span class="post-meta-item">
+															<a href="#cat" class="meta-link cat-link">
+																<div class="cat-thumbnail-meta-container">
+																	<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+																</div>
+																HTML 5
+															</a>
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+														</span>
+
+														<span class="post-meta-item post-meta-item-time">
+															1 ngày
+														</span>
+
+													</div>
+
+													<div class="post-content">
+														<p>WordPress is open source software you can use to create a beautiful..</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+									</article>
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-2">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">						
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+
+											<div class="post-meta-container">
+										
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful..</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link"  title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+												
+										</div>
+
+									</article>
+								</div>
+
+								<!-- ********************************************************* -->
+								<div class="col-12 col-lg-6 post-style-default">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											
+											<div class="post-meta-container">
+												
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+											
+											<div class="post-thumbnail-container">
+												<figure class="post-thumbnail">
+													<img src="uploads/images/posts/4.jpg" alt="" class="post-thumbnail-img">
+												</figure>
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful website, blog, or app....</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link" title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+
+										</div>
+
+									</article>
+
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-1">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">
+											<div class="row">
+
+												<div class="col-4">
+													<div class="post-thumbnail-container">
+														<figure class="post-thumbnail">
+															<img src="uploads/images/posts/4.jpg" alt="" class="post-thumbnail-img">
+														</figure>
+													</div>
+
+													<div class="post-meta-container">
+
+														<span class="post-meta-item post-meta-item-view">
+															<i class="fa fa-eye"></i>
+															99
+														</span>
+														
+														<span class="post-meta-item post-meta-item-comment">
+															<i class="fa fa-comments"></i>
+															12
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#share" class="meta-link share-link"  title="Share">
+																<i class="fa fa-share"></i>
+															</a>
+														</span>
+
+													</div>
+												</div>
+
+												<div class="col-8">
+
+													<h2 class="post-title">
+														<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+													</h2>
+
+													<div class="post-meta-container">
+												
+														<span class="post-meta-item">
+															<a href="#cat" class="meta-link cat-link">
+																<div class="cat-thumbnail-meta-container">
+																	<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+																</div>
+																HTML 5
+															</a>
+														</span>
+
+														<span class="post-meta-item">
+															<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+														</span>
+
+														<span class="post-meta-item post-meta-item-time">
+															1 ngày
+														</span>
+
+													</div>
+
+													<div class="post-content">
+														<p>WordPress is open source software you can use to create a beautiful..</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+									</article>
+								</div>
+								<div class="col-12 col-lg-6 post-style post-style-2">
+
+									<article class="post">
+										
+										<a href="#post" class="post-link"></a>					
+										<div class="post-container">						
+
+											<h2 class="post-title">
+												<a href="posts/what-is-wordpress.html">What is WordPress?</a>
+											</h2>
+
+											<div class="post-meta-container">
+										
+												<span class="post-meta-item">
+													<a href="#cat" class="meta-link cat-link">
+														<div class="cat-thumbnail-meta-container">
+															<img src="uploads/images/categories/html5.png" alt="" class="cat-thumbnail-meta">
+														</div>
+														HTML 5
+													</a>
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#author" class="meta-link author-link">Đăng bởi GameC</a>
+												</span>
+
+												<span class="post-meta-item post-meta-item-time">
+													1 ngày
+												</span>
+
+											</div>
+
+											<div class="post-content">
+												<p>WordPress is open source software you can use to create a beautiful..</p>
+											</div>
+
+											<div class="post-meta-container">
+
+												<span class="post-meta-item post-meta-item-view">
+													<i class="fa fa-eye"></i>
+													99
+												</span>
+												
+												<span class="post-meta-item post-meta-item-comment">
+													<i class="fa fa-comments"></i>
+													12
+												</span>
+
+												<span class="post-meta-item">
+													<a href="#share" class="meta-link share-link"  title="Share">
+														<i class="fa fa-share"></i>
+													</a>
+												</span>
+
+											</div>
+												
+										</div>
+
+									</article>
+								</div>
+
+								
+								
+							</div>
+		
+						</div>
+
+
+						
+					</div>
+					
+					<!-- Contain Right -->
+					<div class="col-12 col-md-4 col-lg-3 content-right">
+						<div class="content-right-home">
+							<header>
+								<h4 class="heading">Chuyên Mục Khác</h4>
+							</header>
+							
+							<div class="cat-box-container">
+								<a href="" class="cat-box-link"></a>
+								<div class="cat-box-thumbnail-container">
+									<figure class="cat-box-thumbnail">
+										<img src="uploads/images/categories/anime.png" alt="" class="cat-box-thumbnail-img">
+									</figure>
+								</div>
+								<span class="cat-box-name">Anime</span>
+							</div>
+
+							<div class="cat-box-container">
+								<a href="" class="cat-box-link"></a>
+								<div class="cat-box-thumbnail-container">
+									<figure class="cat-box-thumbnail">
+										<img src="uploads/images/categories/game.jpg" alt="" class="cat-box-thumbnail-img">
+									</figure>
+								</div>
+								<span class="cat-box-name">Game</span>
+							</div>
+
+							<div class="cat-box-container">
+								<a href="" class="cat-box-link"></a>
+								<div class="cat-box-thumbnail-container">
+									<figure class="cat-box-thumbnail">
+										<img src="uploads/images/categories/game.jpg" alt="" class="cat-box-thumbnail-img">
+									</figure>
+								</div>
+								<span class="cat-box-name">Game</span>
+							</div>
+
+							<div class="cat-box-container">
+								<a href="" class="cat-box-link"></a>
+								<div class="cat-box-thumbnail-container">
+									<figure class="cat-box-thumbnail">
+										<img src="uploads/images/categories/game.jpg" alt="" class="cat-box-thumbnail-img">
+									</figure>
+								</div>
+								<span class="cat-box-name">Game</span>
+							</div>
+
+							<div class="cat-box-container">
+								<a href="" class="cat-box-link"></a>
+								<div class="cat-box-thumbnail-container">
+									<figure class="cat-box-thumbnail">
+										<img src="uploads/images/categories/game.jpg" alt="" class="cat-box-thumbnail-img">
+									</figure>
+								</div>
+								<span class="cat-box-name">Game</span>
+							</div>
+							
+						</div>								
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer>
+			<div class="copyright-container">
+				<p class="copyright">
+					<span>Copyright © 2019 iCuong. All rights reserved.</span> 
+	            </p>
+	        </div>
+		</footer>
+
+	</div>
+	
+	<!-- Canvas JS -->
+	<script src="assets/custom/js/js_canvas.js"></script>
+
+	<!-- Root JS -->
+	<script src="assets/root/js/root.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/custom/js/js.js"></script>
+	
+</body>
+</html>
